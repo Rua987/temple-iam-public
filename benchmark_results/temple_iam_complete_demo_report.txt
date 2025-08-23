@@ -1,0 +1,24 @@
+🏛️ TEMPLE IAM - RAPPORT DE BENCHMARK AVANCÉ
+==================================================
+
+📊 Benchmark: temple_iam_complete_demo
+⏰ Date: 2025-08-23 03:06:07
+
+🎯 TYPE DE DONNÉES: IMAGE_SMALL
+------------------------------
+Algorithme           Ratio    Temps(s)   Qualité  Efficacité
+----------------------------------------------------------------------
+Original             1.00     0.000      0.923    11297.80  
+Optimized            1.00     0.000      0.986    10664.35  
+Ultra_Instinct       1.00     0.000      0.923    3404.76   
+
+🏆 MEILLEURS PERFORMERS:
+  compression_ratio: Original
+  processing_time: Original
+  memory_usage: Original
+  quality_score: Optimized
+  cpu_utilization: Original
+  energy_efficiency: Original
+
+==================================================
+

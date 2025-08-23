@@ -1,0 +1,1 @@
+C:\Users\admin\miniconda3\python.exe: can't open file 'C:\\Users\\admin\\templates\\temple-iam-public-clean\\temple-iam-public-clean\\security_check.py': [Errno 2] No such file or directory

@@ -1,0 +1,109 @@
+{
+  "benchmark_name": "temple_iam_complete_demo",
+  "timestamp": 1755954367.8107314,
+  "config": {
+    "iterations": 5,
+    "confidence_level": 0.95,
+    "timeout_seconds": 300,
+    "memory_limit_mb": 1024,
+    "cpu_cores": 12
+  },
+  "results": {
+    "image_small": {
+      "Original": {
+        "compression_ratio": 1.0,
+        "processing_time": 8.069999967119657e-05,
+        "memory_usage": 0.0,
+        "quality_score": 0.9230304956436157,
+        "cpu_utilization": 0.6261999929440207,
+        "energy_efficiency": 16572931545.509785,
+        "data_size": 40000,
+        "compressed_size": 40000,
+        "iterations": 5,
+        "confidence_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "Optimized": {
+        "compression_ratio": 1.0,
+        "processing_time": 9.143999996013008e-05,
+        "memory_usage": 0.0,
+        "quality_score": 0.9858123064041138,
+        "cpu_utilization": 0.7027999941376037,
+        "energy_efficiency": 13626757438.388386,
+        "data_size": 40000,
+        "compressed_size": 40000,
+        "iterations": 5,
+        "confidence_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "Ultra_Instinct": {
+        "compression_ratio": 1.0,
+        "processing_time": 0.00027010000121663325,
+        "memory_usage": 0.0,
+        "quality_score": 0.9230304956436157,
+        "cpu_utilization": 0.9424000001861714,
+        "energy_efficiency": 6402741417.606619,
+        "data_size": 40000,
+        "compressed_size": 40000,
+        "iterations": 5,
+        "confidence_interval": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "comparative_analysis": {
+    "best_performers": {
+      "image_small": {
+        "compression_ratio": "Original",
+        "processing_time": "Original",
+        "memory_usage": "Original",
+        "quality_score": "Optimized",
+        "cpu_utilization": "Original",
+        "energy_efficiency": "Original"
+      }
+    },
+    "efficiency_ranking": {
+      "image_small": [
+        [
+          "Original",
+          11297.802929723037
+        ],
+        [
+          "Optimized",
+          10664.34775886305
+        ],
+        [
+          "Ultra_Instinct",
+          3404.760204726194
+        ]
+      ]
+    },
+    "trade_off_analysis": {},
+    "scalability_analysis": {}
+  },
+  "summary": {
+    "total_algorithms": 3,
+    "total_data_types": 1,
+    "best_overall_compression": {
+      "algorithm": "Original",
+      "data_type": "image_small",
+      "ratio": 1.0
+    },
+    "fastest_overall": {
+      "algorithm": "Original",
+      "data_type": "image_small",
+      "time": 8.069999967119657e-05
+    },
+    "most_efficient_overall": {
+      "algorithm": "Original",
+      "data_type": "image_small",
+      "efficiency": 11297.802929723037
+    }
+  }
+}

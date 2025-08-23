@@ -1,0 +1,25 @@
+🏛️ TEMPLE IAM - RAPPORT DE BENCHMARK AVANCÉ
+==================================================
+
+📊 Benchmark: temple_iam_interactive_demo
+⏰ Date: 2025-08-23 03:03:46
+
+🎯 TYPE DE DONNÉES: AUDIO_SAMPLE
+------------------------------
+Algorithme           Ratio    Temps(s)   Qualité  Efficacité
+----------------------------------------------------------------------
+Compression_Simple   1.00     0.000      0.923    18939.31  
+Compression_Agressive 1.00     0.000      0.859    10292.32  
+Compression_Smart    1.00     0.000      0.905    5880.77   
+Compression_Ultra    1.00     0.000      0.859    5717.50   
+
+🏆 MEILLEURS PERFORMERS:
+  compression_ratio: Compression_Simple
+  processing_time: Compression_Simple
+  memory_usage: Compression_Simple
+  quality_score: Compression_Simple
+  cpu_utilization: Compression_Simple
+  energy_efficiency: Compression_Simple
+
+==================================================
+

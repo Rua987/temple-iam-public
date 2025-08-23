@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+    from CORE_ALGORITHMS_PUBLIC import UltraInstinctCompressor, TempleIAMMonitoring
+ModuleNotFoundError: No module named 'CORE_ALGORITHMS_PUBLIC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 40, in <module>
+    print(f'\u274c ERREUR TEMPLE IAM: {e}')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\miniconda3\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>

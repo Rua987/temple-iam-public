@@ -1,0 +1,128 @@
+{
+  "benchmark_name": "temple_iam_interactive_demo",
+  "timestamp": 1755954226.2142332,
+  "config": {
+    "iterations": 5,
+    "confidence_level": 0.95,
+    "timeout_seconds": 300,
+    "memory_limit_mb": 1024,
+    "cpu_cores": 12
+  },
+  "results": {
+    "audio_sample": {
+      "Compression_Simple": {
+        "compression_ratio": 1.0,
+        "processing_time": 4.771999956574291e-05,
+        "memory_usage": 0.0,
+        "quality_score": 0.9227229356765747,
+        "cpu_utilization": 0.0009543999913148582,
+        "energy_efficiency": 24014904370.572044,
+        "data_size": 200000,
+        "compressed_size": 200000,
+        "iterations": 5,
+        "confidence_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "Compression_Agressive": {
+        "compression_ratio": 1.0,
+        "processing_time": 8.246000070357695e-05,
+        "memory_usage": 0.0,
+        "quality_score": 0.8589973449707031,
+        "cpu_utilization": 0.001649200014071539,
+        "energy_efficiency": 17903043278.2152,
+        "data_size": 200000,
+        "compressed_size": 200000,
+        "iterations": 5,
+        "confidence_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "Compression_Smart": {
+        "compression_ratio": 1.0,
+        "processing_time": 0.00015287999995052814,
+        "memory_usage": 0.0,
+        "quality_score": 0.9049326181411743,
+        "cpu_utilization": 0.003057599999010563,
+        "energy_efficiency": 9450809182.469574,
+        "data_size": 200000,
+        "compressed_size": 200000,
+        "iterations": 5,
+        "confidence_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "Compression_Ultra": {
+        "compression_ratio": 1.0,
+        "processing_time": 0.0001492399998824112,
+        "memory_usage": 0.0,
+        "quality_score": 0.8589973449707031,
+        "cpu_utilization": 0.0029847999976482242,
+        "energy_efficiency": 14392556583.097422,
+        "data_size": 200000,
+        "compressed_size": 200000,
+        "iterations": 5,
+        "confidence_interval": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "comparative_analysis": {
+    "best_performers": {
+      "audio_sample": {
+        "compression_ratio": "Compression_Simple",
+        "processing_time": "Compression_Simple",
+        "memory_usage": "Compression_Simple",
+        "quality_score": "Compression_Simple",
+        "cpu_utilization": "Compression_Simple",
+        "energy_efficiency": "Compression_Simple"
+      }
+    },
+    "efficiency_ranking": {
+      "audio_sample": [
+        [
+          "Compression_Simple",
+          18939.305088282068
+        ],
+        [
+          "Compression_Agressive",
+          10292.32372069568
+        ],
+        [
+          "Compression_Smart",
+          5880.768250793521
+        ],
+        [
+          "Compression_Ultra",
+          5717.500969402404
+        ]
+      ]
+    },
+    "trade_off_analysis": {},
+    "scalability_analysis": {}
+  },
+  "summary": {
+    "total_algorithms": 4,
+    "total_data_types": 1,
+    "best_overall_compression": {
+      "algorithm": "Compression_Simple",
+      "data_type": "audio_sample",
+      "ratio": 1.0
+    },
+    "fastest_overall": {
+      "algorithm": "Compression_Simple",
+      "data_type": "audio_sample",
+      "time": 4.771999956574291e-05
+    },
+    "most_efficient_overall": {
+      "algorithm": "Compression_Simple",
+      "data_type": "audio_sample",
+      "efficiency": 18939.305088282068
+    }
+  }
+}
